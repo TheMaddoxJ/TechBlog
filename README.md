@@ -1,13 +1,13 @@
 # TechBlog
 <span>
-  # About:
+  ## About:
   A tech blog where users can create an account to create and read blog posts along with comments on the posts. 
-# User Story
+## User Story
   AS A developer who writes about tech
 I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 <span>
-# Acceptance Criteria
+## Acceptance Criteria
   WHEN I visit the site for the first time
 THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
 WHEN I click on the homepage option
@@ -41,7 +41,7 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
   <span>
-# Walkthrough Code
+## Walkthrough Code
     
 
 https://github.com/TheMaddoxJ/TechBlog/assets/123782105/9a739e57-40b2-4599-8952-e1fd4c11d82a
