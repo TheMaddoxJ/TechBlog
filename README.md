@@ -1,4 +1,4 @@
-# TechBlog
+<h1> TechBlog </h1>
 <span>
   ## About:
   A tech blog where users can create an account to create and read blog posts along with comments on the posts. 
