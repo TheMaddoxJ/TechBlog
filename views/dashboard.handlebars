@@ -1,0 +1,17 @@
+{{#if posts.length}}
+<div class="posts">
+    <div class="h1 justify-content-center">
+        <h1>User Posts</h1>
+    </div>
+     {{#each posts as |post|}}
+    <input name="post" type="hidden" value="{{post.id}}"/>
+        <div class="card text-center col-4 mx-auto">
+            <div class="card-header">
+                <h3><a class="link" href="/dashboard/edit/{{id}}">{{title}}</a></h3>
+            </div>
+            <button class="btn" id="delete-btn"><i class="delete"></i>Delete Post</button>
+        </div>
+    {{/each}}
+</div>
+
+
